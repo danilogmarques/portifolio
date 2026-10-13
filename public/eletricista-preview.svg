@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="42" y1="45" x2="926" y2="530" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#202A3A"/>
+      <stop offset="1" stop-color="#151C29"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="298" y1="175" x2="768" y2="432" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFD36B"/>
+      <stop offset="1" stop-color="#F49D37"/>
+    </linearGradient>
+    <filter id="glow" x="591" y="62" width="357" height="357" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="40"/>
+    </filter>
+  </defs>
+  <rect width="960" height="540" fill="url(#bg)"/>
+  <circle cx="766" cy="240" r="138" fill="#F9B945" fill-opacity=".19" filter="url(#glow)"/>
+  <circle cx="850" cy="65" r="168" stroke="#FFFFFF" stroke-opacity=".07"/>
+  <circle cx="850" cy="65" r="118" stroke="#FFFFFF" stroke-opacity=".06"/>
+  <rect x="47" y="45" width="866" height="450" rx="22" fill="#F6F7F9"/>
+  <path d="M69 45h196v450H69a22 22 0 0 1-22-22V67a22 22 0 0 1 22-22Z" fill="#202A3A"/>
+  <rect x="88" y="78" width="40" height="40" rx="12" fill="#F7BD4B"/>
+  <path d="m111 85-11 17h9l-3 10 12-17h-9l2-10Z" fill="#202A3A"/>
+  <text x="140" y="103" fill="#F6F7F9" font-family="Arial, sans-serif" font-size="14" font-weight="700">PAINEL DO ELETRICISTA</text>
+  <text x="90" y="166" fill="#F7BD4B" font-family="Arial, sans-serif" font-size="10" font-weight="700" letter-spacing="1.2">ÁREA PROFISSIONAL</text>
+  <rect x="85" y="187" width="159" height="38" rx="10" fill="#FFFFFF" fill-opacity=".1"/>
+  <circle cx="104" cy="206" r="4" fill="#F7BD4B"/>
+  <rect x="117" y="202" width="82" height="8" rx="4" fill="#FFFFFF" fill-opacity=".9"/>
+  <rect x="100" y="247" width="91" height="7" rx="3.5" fill="#FFFFFF" fill-opacity=".28"/>
+  <rect x="100" y="279" width="107" height="7" rx="3.5" fill="#FFFFFF" fill-opacity=".28"/>
+  <rect x="100" y="311" width="77" height="7" rx="3.5" fill="#FFFFFF" fill-opacity=".28"/>
+  <text x="298" y="100" fill="#808995" font-family="Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="1.5">DASHBOARD</text>
+  <text x="298" y="132" fill="#202A3A" font-family="Arial, sans-serif" font-size="24" font-weight="700">Sua rotina profissional</text>
+  <rect x="298" y="156" width="180" height="86" rx="12" fill="#FFFFFF" stroke="#E4E7EB"/>
+  <rect x="496" y="156" width="180" height="86" rx="12" fill="#FFFFFF" stroke="#E4E7EB"/>
+  <rect x="694" y="156" width="180" height="86" rx="12" fill="#FFFFFF" stroke="#E4E7EB"/>
+  <text x="315" y="183" fill="#808995" font-family="Arial, sans-serif" font-size="10" font-weight="700">ATENDIMENTOS</text>
+  <path d="M316 215h118" stroke="#F2B94B" stroke-width="5" stroke-linecap="round"/>
+  <text x="513" y="183" fill="#808995" font-family="Arial, sans-serif" font-size="10" font-weight="700">SERVIÇOS</text>
+  <path d="M514 215h111" stroke="#F2B94B" stroke-width="5" stroke-linecap="round"/>
+  <text x="711" y="183" fill="#808995" font-family="Arial, sans-serif" font-size="10" font-weight="700">AGENDA</text>
+  <path d="M712 215h104" stroke="#F2B94B" stroke-width="5" stroke-linecap="round"/>
+  <rect x="298" y="260" width="576" height="208" rx="12" fill="#FFFFFF" stroke="#E4E7EB"/>
+  <text x="318" y="290" fill="#202A3A" font-family="Arial, sans-serif" font-size="13" font-weight="700">Resumo de atividades</text>
+  <path d="M320 422h532M320 382h532M320 342h532" stroke="#EFF1F3"/>
+  <rect x="347" y="371" width="38" height="51" rx="7" fill="#F8D88E"/>
+  <rect x="411" y="340" width="38" height="82" rx="7" fill="#F5C564"/>
+  <rect x="475" y="359" width="38" height="63" rx="7" fill="#F8D88E"/>
+  <rect x="539" y="320" width="38" height="102" rx="7" fill="url(#accent)"/>
+  <rect x="603" y="346" width="38" height="76" rx="7" fill="#F5C564"/>
+  <rect x="667" y="329" width="38" height="93" rx="7" fill="url(#accent)"/>
+  <rect x="731" y="354" width="38" height="68" rx="7" fill="#F8D88E"/>
+  <rect x="795" y="310" width="38" height="112" rx="7" fill="url(#accent)"/>
+</svg>

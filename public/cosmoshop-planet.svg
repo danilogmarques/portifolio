@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" fill="none">
+  <defs>
+    <linearGradient id="space" x1="54" y1="18" x2="888" y2="530" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#171629"/>
+      <stop offset=".52" stop-color="#28234A"/>
+      <stop offset="1" stop-color="#101A35"/>
+    </linearGradient>
+    <radialGradient id="planet" cx="0" cy="0" r="1" gradientTransform="matrix(168 201 -201 168 527 165)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A9F3F0"/>
+      <stop offset=".28" stop-color="#66C6D5"/>
+      <stop offset=".68" stop-color="#4B78C7"/>
+      <stop offset="1" stop-color="#293C78"/>
+    </radialGradient>
+    <linearGradient id="ring" x1="243" y1="192" x2="832" y2="365" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8C7FF" stop-opacity=".15"/>
+      <stop offset=".24" stop-color="#86E4FF"/>
+      <stop offset=".53" stop-color="#F8D99B"/>
+      <stop offset=".82" stop-color="#BDA9FF"/>
+      <stop offset="1" stop-color="#8CEBFA" stop-opacity=".28"/>
+    </linearGradient>
+    <linearGradient id="ringLight" x1="272" y1="215" x2="791" y2="354" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6FE6F7" stop-opacity=".3"/>
+      <stop offset=".5" stop-color="#FFF0C4"/>
+      <stop offset="1" stop-color="#A89EFF" stop-opacity=".3"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="matrix(0 242 -370 0 565 271)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8271FF" stop-opacity=".3"/>
+      <stop offset="1" stop-color="#8271FF" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softGlow" x="269" y="29" width="596" height="472" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="38"/>
+    </filter>
+    <clipPath id="planetClip">
+      <circle cx="560" cy="267" r="145"/>
+    </clipPath>
+    <mask id="ringFront">
+      <rect width="960" height="540" fill="white"/>
+      <circle cx="560" cy="267" r="145" fill="black"/>
+    </mask>
+  </defs>
+  <rect width="960" height="540" fill="url(#space)"/>
+  <rect width="960" height="540" fill="url(#glow)"/>
+  <circle cx="547" cy="261" r="194" fill="#6E78FF" fill-opacity=".25" filter="url(#softGlow)"/>
+  <path d="M0 423c154-81 274 49 433-17 142-59 294-29 527-155v289H0V423Z" fill="#10152D" fill-opacity=".5"/>
+  <g fill="#FFF8E8">
+    <circle cx="101" cy="107" r="2"/><circle cx="181" cy="328" r="1.5"/>
+    <circle cx="249" cy="90" r="1.5"/><circle cx="306" cy="420" r="2"/>
+    <circle cx="383" cy="142" r="1.5"/><circle cx="408" cy="493" r="1"/>
+    <circle cx="451" cy="72" r="2"/><circle cx="720" cy="93" r="1.5"/>
+    <circle cx="840" cy="149" r="2"/><circle cx="887" cy="285" r="1.5"/>
+    <circle cx="798" cy="448" r="2"/><circle cx="671" cy="477" r="1.5"/>
+    <circle cx="120" cy="461" r="1"/><circle cx="920" cy="91" r="1"/>
+  </g>
+  <g stroke="#FFF8E8" stroke-linecap="round" opacity=".65">
+    <path d="M195 179v12m-6-6h12"/><path d="M777 349v14m-7-7h14"/>
+    <path d="M340 274v10m-5-5h10"/><path d="M863 397v10m-5-5h10"/>
+  </g>
+  <text x="72" y="74" fill="#71E7F1" font-family="Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="3">COSMOSHOP</text>
+  <text x="72" y="105" fill="#F8F1FF" fill-opacity=".68" font-family="Arial, sans-serif" font-size="11" letter-spacing="2">EXPLORE YOUR UNIVERSE</text>
+  <path d="M280 279c81-107 202-165 335-152 93 9 170 57 227 118" stroke="url(#ring)" stroke-width="49" stroke-linecap="round" opacity=".84"/>
+  <path d="M280 279c81-107 202-165 335-152 93 9 170 57 227 118" stroke="url(#ringLight)" stroke-width="2" opacity=".9"/>
+  <circle cx="560" cy="267" r="145" fill="url(#planet)"/>
+  <g clip-path="url(#planetClip)" opacity=".42">
+    <path d="M402 168c50 31 109 48 174 45 50-2 99-20 139-48" stroke="#E0FFFF" stroke-width="10"/>
+    <path d="M389 214c60 33 120 48 183 42 60-5 112-25 160-59" stroke="#244E9B" stroke-width="13"/>
+    <path d="M403 259c49 30 105 45 163 41 71-4 128-30 174-65" stroke="#D9FBF1" stroke-width="7"/>
+    <path d="M405 301c59 29 111 40 166 34 65-6 115-27 158-56" stroke="#3053A1" stroke-width="12"/>
+    <path d="M425 344c48 21 94 29 145 25 56-5 101-21 136-43" stroke="#B7ECFF" stroke-width="7"/>
+    <ellipse cx="505" cy="210" rx="19" ry="8" fill="#E9FFFF" fill-opacity=".3" transform="rotate(-17 505 210)"/>
+    <ellipse cx="626" cy="305" rx="12" ry="5" fill="#E9FFFF" fill-opacity=".25" transform="rotate(-17 626 305)"/>
+  </g>
+  <circle cx="560" cy="267" r="145" stroke="#C8F8FF" stroke-opacity=".72" stroke-width="2"/>
+  <path d="M280 279c81-107 202-165 335-152 93 9 170 57 227 118" stroke="url(#ring)" stroke-width="49" stroke-linecap="round" mask="url(#ringFront)" opacity=".92"/>
+  <path d="M280 279c81-107 202-165 335-152 93 9 170 57 227 118" stroke="url(#ringLight)" stroke-width="2" mask="url(#ringFront)"/>
+  <g fill="#FFF8E8" opacity=".85">
+    <circle cx="279" cy="279" r="4"/><circle cx="842" cy="245" r="3"/>
+  </g>
+</svg>
