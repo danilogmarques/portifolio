@@ -129,9 +129,11 @@ export default function Home() {
             </span>
           </h1>
           <p className="mt-7 max-w-xl text-base leading-7 text-[#65675f] sm:text-lg sm:leading-8">
-            Oi, eu sou <span className="font-semibold text-[#20231f]">Danilo Marques</span>.
-            Desenvolvo produtos para a web com cuidado nos detalhes, boas ideias e
-            código feito para pessoas.
+           Desenvolvedor Full-Stack com formação pela Labenu e cursos complementares pela Udemy e DIO. Conhecimentos no
+desenvolvimento de aplicações web e mobile com tecnologias de front-end e back-end, integração com APIs, bancos de dados
+relacionais, testes e práticas de deploy. Busco evoluir continuamente por meio de projetos práticos e boas práticas de
+desenvolvimento.
+            Sou músico baixista gosto de séries, cinema, tecnologia e leitura o que facilita meus estudos li livro como: Eloquente JavaScript, Entendedo algoritmos entre outros.Gosto de desafios e de aprender coisas novas.
           </p>
           <div className="mt-9 flex flex-wrap items-center gap-3">
             <a
