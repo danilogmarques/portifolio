@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1100" fill="none">
+  <defs>
+    <linearGradient id="wood" x1="290" y1="410" x2="590" y2="880" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#a85f3e" stop-opacity=".12"/>
+      <stop offset=".5" stop-color="#7a422f" stop-opacity=".1"/>
+      <stop offset="1" stop-color="#ba7650" stop-opacity=".08"/>
+    </linearGradient>
+    <linearGradient id="neck" x1="430" y1="110" x2="490" y2="610" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#754632" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#754632" stop-opacity=".07"/>
+    </linearGradient>
+  </defs>
+
+  <g stroke="#8b604c" stroke-linecap="round" stroke-linejoin="round" opacity=".16">
+    <path d="M398 236c-36-16-54-43-48-76 6-34 40-51 74-38 22 8 38 29 44 53" stroke-width="9"/>
+    <path d="m422 171 122-19 18 98-127 19z" fill="#94634b" fill-opacity=".08" stroke-width="7"/>
+    <path d="m444 179 8 60m24-65 8 60m24-65 8 60m24-66 8 61" stroke-width="4"/>
+    <path d="m435 266 130-20 11 67-132 21z" fill="url(#neck)" stroke-width="7"/>
+    <path d="m449 283 130-20" stroke-width="4"/>
+    <path d="M454 323 446 483c-45 19-77 65-80 120-3 39 7 68 28 91-24 34-32 78-19 117 15 46 58 76 107 77 19 39 56 65 101 65 52 0 96-36 108-84 30-12 49-41 49-74 0-23-9-44-25-60 12-36 5-78-20-106-21-24-52-38-85-39l-15-169z" fill="url(#wood)" stroke-width="8"/>
+    <path d="m440 498 112 15m-163 101 117 15m-131 132 124 17m-36 157 105-5" stroke-width="4" opacity=".7"/>
+    <path d="m456 273 18 609m26-613 17 620m24-624 15 627m24-631 14 634" stroke-width="2.5" opacity=".9"/>
+    <path d="m495 637-21 25 6 54 28 28 17-28-4-55zm78 2 21 24-5 53-28 29-17-28 4-55z" fill="#8b604c" fill-opacity=".12" stroke-width="5"/>
+    <path d="m530 675-6 97 25 61 24-61-7-97" fill="#754632" fill-opacity=".08" stroke-width="5"/>
+    <path d="m535 861-22 176 52 9 20-185" stroke-width="8"/>
+    <path d="m522 1015 43 7" stroke-width="10"/>
+  </g>
+
+  <g stroke="#d3a27f" stroke-linecap="round" opacity=".16">
+    <path d="M80 320h212m-178 26h143M85 790h175m-145 26h125" stroke-width="3"/>
+    <path d="M92 344v-48m42 48v-48m42 48v-48m42 48v-48m42 48v-48M92 814v-48m42 48v-48m42 48v-48m42 48v-48" stroke-width="2"/>
+  </g>
+</svg>

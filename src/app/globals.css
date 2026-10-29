@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  color-scheme: light;
-  background: #f8f7f3;
+  color-scheme: dark;
+  background: #111110;
   font-family: Arial, Helvetica, sans-serif;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -20,24 +20,31 @@ html {
 
 body {
   margin: 0;
+  background-color: #111110;
+  background-image: url("/contrabaixo-background.svg");
+  background-position: right -12vw center;
+  background-repeat: no-repeat;
+  background-size: min(74vw, 800px) auto;
+  background-attachment: fixed;
 }
 
-.hero-artwork {
-  background-image: url("/interests-background.svg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 118% 118%;
+.projects-carousel {
+  scrollbar-color: #48413a transparent;
+  scrollbar-width: thin;
 }
 
 ::selection {
-  color: #20231f;
-  background: #f6c69d;
+  color: #111110;
+  background: #f6a17f;
 }
 
 @media (max-width: 640px) {
-  .hero-artwork {
-    background-size: 140% 120%;
+  body {
+    background-position: right -42vw 10rem;
+    background-size: 145vw auto;
+    background-attachment: scroll;
   }
+
 }
 
 @media (prefers-reduced-motion: reduce) {
